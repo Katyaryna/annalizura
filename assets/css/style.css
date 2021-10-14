@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    /*font-family: 'Caveat', cursive;*/
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+    background-color: rgb(226, 226, 226);
+}  
+
+* {
+    margin:0;
+    padding:0;
+ }
+
+ a{
+     text-decoration: none;
+     color:white;
+ }
+
+ h1{
+     font-weight:900;
+     text-transform: uppercase;
+     padding:1% 0;
+     letter-spacing: 5px;
+ }
+
+ h2{
+    font-family: 'Marck Script', cursive;
+    font-weight:400; 
+    font-size:16px;
+    letter-spacing: 5px;
+ }
+
+ h2::before{
+    display:block;
+    content:"";
+    width:100px;
+    height:5px;
+    margin:20px auto 20px;
+    background-color:#ffffff;
+   }
+
+
+ .container{
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     justify-content:space-between;
+     margin:0 auto;
+ }
+
+ .intro{
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+     text-align:center;
+     width:95%;
+     background: url(..//img/intro_img.jpg)
+     no-repeat
+     center;
+     height:85vh;
+ }
+
+
+ .intro_inner{
+     padding:2%;
+     background-color:rgba(145, 142, 138, 0.404);
+ }
+
+ .intro_title{
+     color:white;
+ }
+
+
+
+
+
+
+
+
+ /*Section 1*/
+ .section_1{
+     display:flex;
+     flex-direction:column;
+     justify-content: space-between;
+     align-items: center;
+     margin-top:5%;
+ }
+ .section_1::before{
+    display:block;
+    content:"";
+    width:800px;
+    height:2px;
+    background-color:black;
+}
+
+ .column_6{
+     display:flex;
+     flex-direction:column;
+     justify-content: space-between;
+     align-content: center;
+     padding:2% 5%;
+ }
+
+ .row_3{
+     display:flex;
+     justify-content: space-around;
+ }
+
+ .sec1_img{
+     width:100%;
+ }
+
+ .row_text{
+    font-family: 'Marck Script', cursive;
+    font-weight:400; 
+    font-size:18px;
+    width:25%;
+    text-align: center;
+    background-color:rgba(247, 232, 34, 0.623);
+    position:relative;
+    z-index: 1;
+    margin-top:-3%;
+ }
+ .section_1_text{
+     font-family: 'Marck Script', cursive;
+     font-size: 24px;
+     padding:5% 9%;
+ }
+
+ .hover-image-8{
+     width:30%;
+ }
+ .hover-image-8 a {
+    display: inline-block;
+    background: #a0a0a0;
+    line-height: 0;
+  }
+  .hover-image-8 a img {
+    transition: filter 0.5s linear;
+    filter: brightness(1) grayscale(1) opacity(0.5);
+  }
+  .hover-image-8 a:hover img {
+    filter: none;
+  }
+
+
+
+
+
+
+
+
+  /*Section 2*/
+ .row_2{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-top:-33%;
+ } 
+.img_sec_2{
+    width:35%;
+    margin-left: -8%;
+}
+.img_sec_2 img{
+    width:100%;
+}
+.img_sec_2_2{
+    width:30%;
+}
+.img_sec_2_2 img{
+    width:100%;
+}
+.sec_2_text{
+    background-color:#fff;
+    width:20%;
+    padding: 5%;
+    margin-top: -15%;
+    text-align:left;
+}
+
+
+
+
+
+
+
+/*Article*/
+article{
+	position:relative;
+	margin:auto;
+	width:920px;
+	padding:20px;
+	background:white;
+	box-shadow:0px 0px 10px #333;
+
+    -webkit-column-count:2;
+	-moz-column-count:2;
+	-ms-column-count:2;
+	-o-column-count:2;
+	column-count:2;
+	-webkit-column-gap:1em;
+	-moz-column-gap:1em;
+	-o-column-gap:1em;
+	-ms-column-gap:1em;
+	column-gap:1em;
+
+    -webkit-column-rule: 1px solid #333;
+	-moz-column-rule: 1px solid #333;
+	-o-column-rule: 1px solid #333;
+	-ms-column-rule: 1px solid #333;
+	column-rule: 1px solid #333;
+}
+article p{
+	font-size:1.2em;
+	line-height:1.6em;
+}
+article header{
+	position:relative;
+	display:block;
+	-webkit-column-span:all;
+	-moz-column-span:all;
+	-o-column-span:all;
+	-ms-column-span:all;
+	 column-span:all;
+	border-bottom:2px solid #333;
+
+}
+article header h1{
+	font-size:8em;
+	line-height:1em;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+}
+article header h4{
+	text-align:right;
+	padding:0;
+	margin:0;
+}
+
+
+
+
+/*Footer*/
+footer{
+    background-color:rgba(228, 191, 97, 0.466);
+    width:100%;
+    margin-top:10%;
+}
+.footer_text{
+    text-align: center;
+    font-size:20px;
+    font-family: 'Marck Script', cursive;
+}
+
+
